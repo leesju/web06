@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+html{font-size: 10px;}
+
+body
+{
+  margin: 0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-user-select:none; 
+  -moz-user-select:none; 
+  -ms-user-select:none; 
+  user-select:none 
+
+
+}
+
+#menus{
+    position: fixed;
+    /*margin-left: */
+    /*padding-top: 300px;*/
+    width: 100px;
+    height: 100%;
+    /*background-color: grey;*/
+    display: flex;
+    flex-direction: column;
+}
+
+#logo{
+    color: sienna;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+
+#menuList{
+    padding: 0px;
+    /* background-color: ; */
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu01{
+    border-bottom: 1px solid sienna;
+}
+
+#menu01 a{
+    position: relative;
+    color: sienna;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 50px;
+    width: 97px;
+    display: block;
+    border-left: 3px solid transparent;
+}
+
+
+#menu01 a:hover{
+    color: sienna;
+    background-color: #e8e6e3;
+    border-left-color: sienna;
+}
+
+#menu02{
+    border-bottom: 1px solid sienna;
+}
+
+#menu02 a{
+    position: relative;
+    color: sienna;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 50px;
+    width: 97px;
+    display: block;
+    border-left: 3px solid transparent;
+}
+
+
+#menu02 a:hover{
+    color: sienna;
+    background-color: #e8e6e3;
+    border-left-color: sienna;
+}
+
+#menu03 {
+    border-bottom: 1px solid sienna;
+}
+
+#menu03 a{
+    position: relative;
+    color: sienna;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 50px;
+    width: 97px;
+    display: block;
+    border-left: 3px solid transparent;
+}
+
+
+#menu03 a:hover{
+    color: sienna;
+    background-color: #e8e6e3;
+    border-left-color: sienna;
+}
+
+#menu04 {
+    border-bottom: 1px solid sienna;
+}
+
+#menu04 a{
+    position: relative;
+    color: sienna;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 50px;
+    width: 97px;
+    display: block;
+    border-left: 3px solid transparent;
+}
+
+
+#menu04 a:hover{
+    color: sienna;
+    background-color: #e8e6e3;
+    border-left-color: sienna;
+}
+
+#menu05 {
+    border-bottom: 1px solid sienna;
+}
+
+#menu05 a{
+    position: relative;
+    color: sienna;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 50px;
+    width: 97px;
+    display: block;
+    border-left: 3px solid transparent;
+}
+
+
+#menu05 a:hover{
+    color: sienna;
+    background-color: #e8e6e3;
+    border-left-color: sienna;
+}
+
+p
+{
+    margin: 0ex;
+}
+
+header a:link{color: black; text-decoration: none;}
+header a:visited{color: black; text-decoration: none;}
+header a:hover{color:sienna; text-decoration: none;}
+
+footer a:link{color: black; text-decoration: none;}
+footer a:visited{color: black; text-decoration: none;}
+footer a:hover{color:sienna; text-decoration: none;}
+
+button a:link{color: black; text-decoration: none;}
+button a:visited{color: black; text-decoration: none;}
+button a:hover{ text-decoration: none;}
+
+
+
+h1
+{
+    margin: 0px;
+    
+    font-family: 'Noto Sans KR', sans-serif;
+    align-items: center;
+}
+header
+{ 
+    height: 90px;  
+    font-family: 'Noto Sans KR', sans-serif;
+    align-items: center;
+}
+
+
+.hr-color-b
+{
+    border: 0;
+    height: 1px;
+    background-color: black;
+}
+
+.hr-color-s
+{   
+    border: 0;
+    height: 1px;
+    background-color: sienna;
+}
+
+section
+{
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+section h1
+{
+    text-align: right;
+}
+
+section p 
+{
+    text-align: right;
+}
+
+
+
+#menu{ height: 90px; position: sticky; top:0px; border-bottom: 1px  }
+#menu ul{height: 90px; display: flex; justify-content: space-around; align-items: center; padding: 0px;}
+#menu ul li{list-style: none; text-decoration: none; user-select: none; padding: 5px 15px; }
+#menu ul li:hover{color:sienna; text-decoration: none; }
+
+#site1
+{
+    width: 300px;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+#site1:hover{
+    background-color: rgb(184, 177, 174);
+    color: white;
+}
+
+#sitelink
+{
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    background-color: rgb(165, 108, 82);
+   
+  
+}
+
+#sitelink:hover{
+    background-color: rgb(236, 236, 235)
+    
+    
+}
+footer ul 
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+footer ul li
+{
+    list-style: none; user-select: none;
+}
+
+footer p
+{
+    align-items: center;     
+    text-align: left;
+}
+
+.row
+{
+    width: 1320px;
+    display: flex;
+    background-color: none;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.col-1{ width: 70px; margin: 0px 20px;  }
+.col-2{ width: 180px; margin: 0px 20px;  }
+.col-3{ width: 290px; margin: 0px 20px;  }
+.col-4{ width: 400px; margin: 0px 20px; }
+.col-5{ width: 510px; margin: 0px 20px; }
+.col-6{ width: 620px; margin: 0px 20px;  }
+.col-7{ width: 730px; margin: 0px 20px;   }
+.col-8{ width: 840px; margin: 0px 20px; }
+.col-9{ width: 950px; margin: 0px 20px; }
+.col-10{ width: 1060px; margin: 0px 20px;  }
+.col-11{ width: 1170px; margin: 0px 20px; }
+.col-12{ width: 1280px; margin: 0px 20px; }
+
+.h-30{height: 30px;}
+.h-50{height: 50px;}
+.h-100{height: 100px;}
+
+.h-200{height: 200px;}
+.h-300{height: 300px;}
+.h-400{height: 400px;}
+.h-500{height: 500px;}
+.h-690{height: 690px;}
+
+.bg-white{background-color: white;}
+.bg-none{background: none;}
+.bg-black{background-color: black;}
+.bg-main{background-image: url(img/background.jpg); height: 100vh; background-repeat : no-repeat;   background-size : cover;}
+.bg-gray{background-color: darkgrey;}
+
+.box-300{width: 300px; height: 300px;}
+
+.img-fit{width: 100%;}
+.img-small{width: 90%; height: 90%;}
+
+.img-display-center{display: block; margin: 0 auto; }
+
+.text-align-left{text-align: left;}
+.text-align-right{text-align: right;}
+.text-align-center{text-align: center;}
+
+.padding-10{padding: 30px 30px;}
+.padding-top-20{padding-top: 20px;}
+.padding-top-30{padding-top: 30px;}
+.padding-top-50{padding-top: 50px;}
+.padding-top-100{padding-top: 100px;}
+.padding-top-150{padding-top: 150px;}
+.padding-top-300{padding-top: 300px;}
+
+.padding-bottom-20{padding-bottom: 20px;}
+.padding-bottom-50{padding-bottom: 50px;}
+.padding-bottom-100{padding-bottom: 100px;}
+
+.padding-left-50{padding-left: 50px;}
+.padding-left-100{padding-left: 100px;}
+
+.padding-right-30{padding-right: 30px;}
+
+.item-align-left{align-items: left;}
+.item-align-center{align-items: center;}
+.item-align-right{align-items: right;}
+
+.margin-right{margin-right: 0px;}
+
+.div-parent{width: 100%; padding: 20px; }
+.div-child{display: inline-block;}
+
+.text-menu{font-weight: 400; font-size: 1.8rem;}
+.text-title{font-weight: 500; font-size: 1.8rem;}
+.text-normal{font-weight: 400; font-size: 1.6rem; }
+.text-site-link{font-weight: 700; font-size: 1.6rem;}
+.text-explanation{font-weight: 400; font-size: 2rem;}
+.text-explanation-bold{font-weight: 500; font-size: 2rem;}
+.text-normal2{font-weight: 400; font-size: 2.4rem;}
+.text-main-title{font-weight: 700; font-size: 3rem;}
+.text-sub-title{font-weight: 500; font-size: 3rem;}
+.text-sub-bold-title{font-weight: 700; font-size: 3rem;}
+
+.text-main-s-title{ font-family: 'Nanum Myeongjo', serif; font-weight: 800; font-size: 3rem;}
+.text-side{ font-family: 'Nanum Myeongjo', serif; font-weight: 400; font-size: 2rem;}
+.text-sub-s-title{ font-family: 'Nanum Myeongjo', serif; font-weight: 800; font-size: 4rem;}
+.text-main-s-year{ font-family: 'Nanum Myeongjo', serif; font-weight: 800; font-size: 3.5rem;}
+.text-main-s{ font-family: 'Nanum Myeongjo', serif; font-weight: 400; font-size: 3rem;}
+.text-normal-s{ font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 1.6rem;}
+
+.text-color-s{color: sienna;}
+.text-color-w{color: white;}
+
+.text-line-4{line-height: 4rem;}
+
+.table-style
+{ 
+   table-layout:fixed; 
+    word-break:break-all;
+    width:"840px"; height:"300px";
+}
+.table-td{
+    width:"70px";
+}
+.table-td-2{
+    width:"290px";
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer{
+    width: 950px;
+    height: 600px;
+    display: flex;
+    overflow: hidden; 
+}
+
+#imageSlider{
+    width: 4750px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface{
+    
+    width: 950px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftArrow{
+    position: absolute; 
+    left: 20px;
+    top: 300px;
+}
+
+#rightArrow{
+    position: absolute;
+    right: 20px;
+    top: 300px;
+    transform: scale(-1);
+}
+
+#bottomBtn{
+   
+    display: flex;
+    width: 200px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottomBtn button{
+    padding: 3px 15px;
+    border: 0px;
+    background-color: rgba(255,2555,255, 0.3);
+}
+
+#bottomBtn button:hover{
+    background-color: rgba(255, 2555, 255, 0.6);
+}
